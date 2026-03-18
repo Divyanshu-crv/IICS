@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: a;
+    src: url(five.ttf);
+}
+
+@font-face {
+    font-family: b;
+    src: url(two.ttf);
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    /* font-family: b; */
+}
+
+.btn button{
+    color: black;
+    background-color: rgb(189, 221, 141);
+    height: 50px;
+    width: 30%;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 5px;
+    overflow: hidden;
+    font-family: b;
+}
+
+.btn{
+    height: auto;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    font-family: b;
+
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.box{
+    position: absolute;
+    top: 15vh;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    /*     
+    font-family: b;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 30px;
+     */
+
+}
+
+h2{
+    text-shadow: 7px 7px 3px #333;
+}
