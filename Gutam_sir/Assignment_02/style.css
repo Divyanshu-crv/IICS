@@ -11,12 +11,12 @@ html,body{
 
 @font-face {
     font-family: a;
-    src: url(five.ttf);
+    src: url(../../font/d.ttf);
 }
 
 @font-face {
     font-family: b;
-    src: url(two.ttf);
+    src: url(../../font/e.ttf);
 }
 .main{
     height: 100%;
@@ -36,7 +36,7 @@ html,body{
     margin: 10px 10px;
     padding: 5px;
     overflow: hidden;
-    font-family: b;
+    font-family: a;
 }
 
 .btn{
@@ -44,7 +44,7 @@ html,body{
     width: 30%;
     display: flex;
     justify-content: center;
-    font-family: b;
+    font-family: a;
 
     position: absolute;
     top: 10%;
@@ -69,4 +69,7 @@ html,body{
 
 h2{
     text-shadow: 7px 7px 3px #333;
+    font-family: b;
+    letter-spacing: 3px;
+    
 }

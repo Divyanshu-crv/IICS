@@ -11,13 +11,14 @@ html,body{
 
 @font-face {
     font-family: a;
-    src: url(five.ttf);
+    src: url(../../font/a.ttf);
 }
 
 @font-face {
-    font-family: b;
-    src: url(one.ttf);
+    font-family:b;
+    src: url(../../font/e.ttf);
 }
+
 .main{
     height: 100%;
     width: 100%;
@@ -47,7 +48,7 @@ html,body{
     margin: 10px 10px;
     padding: 5px;
     overflow: hidden;
-    font-family: b;
+    font-family: a;
 }
 
 .btn{
