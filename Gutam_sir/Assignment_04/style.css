@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+/* ------- Fonts ------- */
+
+@font-face {
+    font-family: a;
+    src: url(../../font/a.ttf);
+}
+
+@font-face {
+    font-family: b;
+    src: url(../../font/b.ttf);
+}
+
+@font-face {
+    font-family: c;
+    src: url(../../font/c.otf);
+}
+
+@font-face {
+    font-family: d;
+    src: url(../../font/d.ttf);
+}
+
+@font-face {
+    font-family: e;
+    src: url(../../font/e.ttf);
+}
+
+@font-face {
+    font-family: f;
+    src: url(../../font/f.ttf);
+}
+
+@font-face {
+    font-family: g;
+    src: url(../../font/g.ttf);
+}
+
+/* -------------  Font End -------- */
+
+.login{
+    height: 30%;
+    width: 40%;
+    background-color: #333;
+    border-radius: 30px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+hr{
+    margin: 0 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
