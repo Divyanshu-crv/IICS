@@ -65,7 +65,8 @@ html,body{
     transform: translate(-50%,-50%);
 
     text-align: center;
-    padding-top: 5%;
+    /* padding-top: 5%; */
+    padding: 10%;
 
 }
 
@@ -73,6 +74,10 @@ hr{
     margin: 0 20%;
 }
 
+button{
+    margin: 10px;
+    height: 30px;
+}
 
 
 
