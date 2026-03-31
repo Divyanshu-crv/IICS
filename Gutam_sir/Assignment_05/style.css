@@ -15,6 +15,11 @@ html,body{
     background-color: #333;
 }
 
+.ball{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 
 
