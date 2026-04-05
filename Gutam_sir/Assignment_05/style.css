@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html,body{
+html, body{
     height: 100%;
     width: 100%;
 }
@@ -20,23 +20,8 @@ html,body{
     position: absolute;
     top: 0;
     left: 0;
+    font-size: 40px;
+
+    /* Smooth animation */
+    transition: all 1s linear;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

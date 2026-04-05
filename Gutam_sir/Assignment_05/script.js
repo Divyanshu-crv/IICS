@@ -1,11 +1,12 @@
-function jumbingball(){
-    tops = Math.round(Math.random() *  60);
-    left = Math.round(Math.random() *  1100);
+const ball = document.querySelector(".ball");
 
-    ball.style.left = left;
-    ball.style.top = tops;
+function jumpingBall() {
+    let topPos = Math.random() * (window.innerHeight - 50);
+    let leftPos = Math.random() * (window.innerWidth - 50);
+
+    ball.style.top = topPos + "px";
+    ball.style.left = leftPos + "px";
 }
 
-setInterval(function(){
-    jumbingball() 
-} , 5000 )
+// Move ball every 1 second
+setInterval(jumpingBall, 1000);
